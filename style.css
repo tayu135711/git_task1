@@ -1,6 +1,10 @@
 body {
   font-family: sans-serif;
+<<<<<<< HEAD
   background: #ffd6d6;
+=======
+  background: #cce0ff;
+>>>>>>> feature/color
   margin: 0;
   padding: 24px;
   line-height: 1.8;

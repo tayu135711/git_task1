@@ -2,15 +2,86 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>くうたび</title>
-    <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>くうたび | ブラウザRPG</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>くうたび</h1>
-    <h2>ゲーム紹介</h2>
-  <p>賞味期限を題材にした、ブラウザで遊べるRPGです。</p>
-    <p>Three.js で作っています。</p>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#top">くうたび</a>
+      <nav>
+        <a href="#about">ゲーム紹介</a>
+        <a href="#features">特徴</a>
+        <a href="#info">ゲーム情報</a>
+        <a href="#howto">遊び方</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="key-visual">
+        <img src="screenshot.png" alt="くうたびの戦闘画面">
+      </div>
+      <div class="product">
+        <p class="tags"><span>RPG</span><span>ブラウザ</span><span>1人用</span></p>
+        <h1>くうたび</h1>
+        <p class="catch">食べて、集めて、強くなる。ブラウザで遊べるRPG</p>
+        <p class="price">ブラウザで公開中</p>
+        <a class="button" href="#about">ゲームの紹介を見る</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="about">
+      <h2>ゲーム紹介</h2>
+      <p>賞味期限を題材にした、ブラウザで遊べるRPGです。</p>
+      <p>Three.js で作っています。</p>
+    </section>
+
+    <section id="features">
+      <h2>特徴</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>食べて強くなる</h3>
+          <p>いろいろな食べ物をためて、総攻撃につなげます。</p>
+        </div>
+        <div class="card">
+          <h3>仲間をつかまえる</h3>
+          <p>モンスターをつかまえて、パーティーに加えられます。</p>
+        </div>
+        <div class="card">
+          <h3>弱点をつく</h3>
+          <p>敵ごとの弱点の栄養を見て、戦い方を考えます。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="info">
+      <h2>ゲーム情報</h2>
+      <dl class="info-table">
+        <div><dt>タイトル</dt><dd>くうたび</dd></div>
+        <div><dt>ジャンル</dt><dd>RPG</dd></div>
+        <div><dt>対応環境</dt><dd>ブラウザ（PC）</dd></div>
+        <div><dt>プレイ人数</dt><dd>1人</dd></div>
+        <div><dt>公開状況</dt><dd>公開中</dd></div>
+      </dl>
+    </section>
+
+    <section id="howto">
       <h2>遊び方</h2>
-  <p>食べ物の賞味期限を見ながら進めます。</p>
+      <ol class="steps">
+        <li>戦闘で、敵の弱点の栄養を確認します。</li>
+        <li>食べ物をためて、「総攻撃」や「とくぎ」で戦います。</li>
+        <li>「つかまえる」で、仲間を増やします。</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 くうたび</p>
+  </footer>
 </body>
 </html>
